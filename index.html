@@ -50,33 +50,35 @@
         <!-- ABOUT -->
         <section id="about" class="section max-container">
             <h2 class="title">민기</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum aliquid minus, neque
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Harum aliquid minus, neque
                 ex sapiente tempora
-                omnis nobis est quasi praesentium culpa in voluptas officia, accusantium tenetur minima alias, maiores
+                omnis nobis est quasi praesentium culpa
+                in voluptas officia, accusantium tenetur minima alias, maiores
                 cumque.</p>
-            <ul>
-                <li>
-                    <i class="fa-brands fa-html5"></i>
-                    <p>Front-End</p>
+            <ul class="majors">
+                <li class="major">
+                    <i class="fa-brands fa-html5 major__icon"></i>
+                    <p class="major__title">Front-End</p>
                     <p>HTML, CSS, JavaScript, Node.js, React</p>
                 </li>
-                <li>
-                    <i class="fa-solid fa-mobile"></i>
-                    <p>Mobile</p>
+                <li class="major">
+                    <i class="fa-solid fa-mobile major__icon"></i>
+                    <p class="major__title">Mobile</p>
                     <p>React-Native, Android, iOS, Kotlin</p>
                 </li>
-                <li>
-                    <i class="fa-solid fa-server"></i>
-                    <p>Back-End</p>
+                <li class="major">
+                    <i class="fa-solid fa-server major__icon"></i>
+                    <p class="major__title">Back-End</p>
                     <p>Node.js, FastAPI, Java, GraphQL</p>
                 </li>
             </ul>
-            <ul>
-                <li>
-                    <img src="./images/instagram-logo-illustration.png" alt="IG Logo">
+            <ul class="jobs">
+                <li class="job">
+                    <img id="ig_img" src="./images/instagram-logo-illustration.png" alt="IG Logo">
                     <div>
-                        <p>Main Web Dev for Instagram</p>
-                        <p>2003 ~ Now</p>
+                        <p class="job__name">Main Web Dev for Instagram</p>
+                        <p class="job__period">2003 ~ Now</p>
                     </div>
                 </li>
             </ul>
@@ -91,45 +93,61 @@
                     iusto,
                     aperiam reiciendis odit quae voluptates ex eius voluptatibus laborum id corrupti quia, voluptatum
                     quidem
-                    eligendi delectus consectetur?</p>
-                <div>
-                    <section>
-                        <h3>languages</h3>
+                    eligendi delectus consectetur?
+                </p>
+                <div class="skills">
+                    <section class="skills__coding">
+                        <h3 class="skills__title">languages</h3>
                         <ul>
-                            <li>
-                                <div><span>HTML</span><span>98%</span></div>
-                                <div>
-                                    <div style="width: 98%;"></div>
+                            <li class="bar">
+                                <div class="bar__metadata">
+                                    <span>HTML</span>
+                                    <span>98%</span>
+                                </div>
+                                <div class="bar__bg">
+                                    <div class="bar__value" style="width: 98%;"></div>
                                 </div>
                             </li>
-                            <li>
-                                <div><span>CSS</span><span>90%</span></div>
-                                <div>
-                                    <div style="width: 98%;"></div>
+                            <li class="bar">
+                                <div class="bar__metadata">
+                                    <span>CSS</span>
+                                    <span>77%</span>
+                                </div>
+                                <div class="bar__bg">
+                                    <div class="bar__value" style="width: 77%;"></div>
                                 </div>
                             </li>
-                            <li>
-                                <div><span>JavaScript</span><span>88%</span></div>
-                                <div>
-                                    <div style="width: 98%;"></div>
+                            <li class="bar">
+                                <div class="bar__metadata">
+                                    <span>JavaScript</span>
+                                    <span>88%</span>
+                                </div>
+                                <div class="bar__bg">
+                                    <div class="bar__value" style="width: 88%;"></div>
                                 </div>
                             </li>
-                            <li>
-                                <div><span>React</span><span>89%</span></div>
-                                <div>
-                                    <div style="width: 98%;"></div>
+                            <li class="bar">
+                                <div class="bar__metadata">
+                                    <span>React</span>
+                                    <span>69%</span>
+                                </div>
+                                <div class="bar__bg">
+                                    <div class="bar__value" style="width: 69%;"></div>
                                 </div>
                             </li>
-                            <li>
-                                <div><span>Node.js</span><span>88%</span></div>
-                                <div>
-                                    <div style="width: 98%;"></div>
+                            <li class="bar">
+                                <div class="bar__metadata">
+                                    <span>Node.js</span>
+                                    <span>88%</span>
+                                </div>
+                                <div class="bar__bg">
+                                    <div class="bar__value" style="width: 88%;"></div>
                                 </div>
                             </li>
                         </ul>
                     </section>
-                    <section>
-                        <h2 class="title">tools</h2>
+                    <section class="skills__tools">
+                        <h2 class="skills__title">tools</h2>
                         <ul>
                             <li>Visual Studio Code</li>
                             <li>Pycharm</li>
@@ -138,8 +156,8 @@
                             <li>Xcode</li>
                         </ul>
                     </section>
-                    <section>
-                        <h3>etc</h3>
+                    <section class="skills__etc">
+                        <h3 class="skills__title">etc</h3>
                         <ul>
                             <li>Git</li>
                             <li>Math</li>
