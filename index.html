@@ -15,6 +15,7 @@
     <meta property="og:image" content="배포후에 생성된 이미지 URL">
     <link rel="stylesheet" href="./css/style.css">
 
+    <script src="./js/main.js" defer></script>
     <!-- font awsome -->
     <script src="//kit.fontawesome.com/fd2f9fb267.js" crossorigin="anonymous"></script>
 </head>
@@ -37,15 +38,20 @@
                 <li><a href="#contact" class="header__menu__item">연락처</a></li>
             </ul>
         </nav>
+        <button class="header__toggle">
+            <i class="fa-solid fa-bars"></i>
+        </button>
     </header>
     <!-- MAIN -->
     <main>
         <!-- HOME -->
         <section id="home">
-            <img class="home__avatar" src="./images/circleimage.png" alt="my prorile">
-            <h2 class="home__title">안녕하세요 <br><strong class="home__title--strong">강민기</strong>입니다!</h2>
-            <p class="home__description">세상에서 제일 뛰어난 인스타그램 개발자 (희망ㅋㅋ)</p>
-            <a class="home__contact" href="#contact">Contact Me</a>
+            <div>
+                <img class="home__avatar" src="./images/circleimage.png" alt="my prorile">
+                <h2 class="home__title">안녕하세요 <br><strong class="home__title--strong">강민기</strong>입니다!</h2>
+                <p class="home__description">세상에서 제일 뛰어난 인스타그램 개발자 (희망ㅋㅋ)</p>
+                <a class="home__contact" href="#contact">Contact Me</a>
+            </div>
         </section>
         <!-- ABOUT -->
         <section id="about" class="section max-container">
