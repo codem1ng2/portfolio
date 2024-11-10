@@ -383,7 +383,7 @@ button:focus {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 1rem;
-    transition: all 250mx ease-out;
+    transition: all 250ms ease-out;
 }
 
 .projects.anim-out {
